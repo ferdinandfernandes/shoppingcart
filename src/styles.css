@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  display: flex;
+  background: white;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-main {
+  background-color: orange;
+}
+
+.card-des {
+  display: flex;
+  font-size: small;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  width: 6rem;
+  height: 1.7rem;
+}
+
+.card-des p {
+  padding-left: 10px;
+  padding-top: 1px;
+}
+
+.card-img-top {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  width: 15rem;
+  height: 15rem;
+  display: block;
+  /* object-fit: cover; */
+}
+.btn {
+  width: 10rem;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  overflow-wrap: break-word;
+}
+
+.active_class:hover {
+  color: rgb(31, 204, 109);
+}
+
+.navbar {
+  color: white;
+}
+
+.main_home {
+  margin-top: 0.6rem;
+}
+
+.add_btn {
+  margin-left: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.container-fluid {
+  margin-top: 4rem;
+  background-image: url("https://source.unsplash.com/random/cloths");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow-y: hidden;
+  /* background: orange; */
+}
+
+.btn_home {
+  display: inline-block;
+  background: rgb(117, 193, 236);
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}

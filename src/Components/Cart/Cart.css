@@ -1,0 +1,67 @@
+.hero {
+  display: grid;
+  place-items: center;
+}
+
+.main_cart {
+  display: grid;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 0.2rem;
+  background: white;
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  width: 50rem;
+  height: 8rem;
+}
+
+.cart_img {
+  width: 5rem;
+  height: 5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+}
+
+.cart_title {
+  margin-left: 10rem;
+  margin-top: -6rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 0.8rem;
+}
+
+.minus_btn {
+  margin-left: 10rem;
+  margin-top: -45px;
+  position: relative;
+  cursor: pointer;
+}
+.add_btn_cart {
+  margin-left: 15rem;
+  margin-top: -50px;
+  position: relative;
+  cursor: pointer;
+}
+.qty {
+  margin-left: 12.5rem;
+  margin-top: -48px;
+}
+
+.back {
+  margin-top: 55px;
+  margin-right: 45rem;
+  cursor: pointer;
+}
+
+.chk_out {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 45rem;
+}
+
+.cart_price {
+  margin-left: 20rem;
+  margin-top: -55px;
+  position: relative;
+}
